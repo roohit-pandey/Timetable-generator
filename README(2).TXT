@@ -1,49 +1,51 @@
-Features-
-Takes prompt for number of subjects and their names.
+Features -
 
-Supports a weekly timetable from Monday to Sunday.
+Takes input for the number of subjects and their names.  
 
-Monday and Friday have three class slots.
+Supports a weekly timetable from Monday to Sunday.  
 
-Tuesday, Wednesday, Thursday, and Saturday have two class slots plus a self-study session.
+Monday and Friday have three class slots.  
 
-Sunday is marked as a holiday with a revision note.
+Tuesday, Wednesday, Thursday, and Saturday have two class slots plus a self-study session.  
 
-Self-study is always included at least once daily (except Sunday).
+Sunday is marked as a holiday with a revision note.  
 
-The timetable cycles through subjects in order, filling in classes for the week.
+Self-study is included at least once daily, except on Sunday.  
 
-How it works-
+The timetable cycles through subjects in order, filling in classes for the week.  
 
-The script asks how many subjects you have and collects their names.
+How it works -
 
-It defines the days of the week and time slots for classes and self-study.
+The script asks how many subjects you have and collects their names.  
 
-It automatically assigns subjects to slots across the week.
+It sets the days of the week and the time slots for classes and self-study.  
 
-Sunday is reserved as a holiday for revision/self-study.
+It automatically assigns subjects to slots throughout the week.  
 
-Finally, it prints the generated timetable in a clear format.
+Sunday is set aside as a holiday for revision or self-study.  
 
+Finally, it prints the timetable in a clear format.  
 
-=== Timetable Generator ===
-How many subjects do you have ? 4
-Enter subject #1 name: Math
-Enter subject #2 name: English
-Enter subject #3 name: EEE
-Enter subject #4 name: CS
+sample output-
 
-===== WEEKLY TIMETABLE =====
+=== Timetable Generator ===  
+How many subjects do you have? 4  
+Enter subject #1 name: Math  
+Enter subject #2 name: English  
+Enter subject #3 name: EEE  
+Enter subject #4 name: CS  
 
-Mon:
-  8:30AM - Math
-  1:15PM - English
-  2:50PM - EEE
-  4PM - Self Study
+===== WEEKLY TIMETABLE =====  
 
-Tue:
-  8:30AM - CS
-  1:15PM - Math
-  Self Study - Self Study
+Mon:  
+  8:30AM - Math  
+  1:15PM - English  
+  2:50PM - EEE  
+   
+
+Tue:  
+  8:30AM - CS  
+  1:15PM - Math  
+  Self Study - Self Study  
 
 (output continues for each day)
